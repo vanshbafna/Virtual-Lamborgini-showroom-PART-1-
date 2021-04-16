@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AR Lamborgini Showroom</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style1.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="logo">
+                <img src="assets/580b585b2edbce24c47b2c8c.png" alt="lambo" width="100%" height="10%">
+            </div>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div id="aSide">
+            <img src="assets/580b585b2edbce24c47b2c8c.png" alt="">
+            <model-viewer src="assets/lamborghini_urus/scene.gltf" alt="model robot" auto-rotate camera-controls ar ios-src="assets/lamborghini_urus/scene.gltf"></model-viewer>
+        </div>
+        <div id="content">
+            <h2>AR Lamborgini Showroom</h2>
+            <p>Automobili Lamborghini S.p.A. is an Italian brand and manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary Audi.</p>
+            <a href="https://en.wikipedia.org/wiki/Lamborghini">  <button  >Find More</button></a>
+        </div>
+        <div id="icons">
+            <div id="iconsLogo">
+                <a href="https://www.facebook.com/Lamborghini/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/lamborghini/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UC9DXZC8BCDOW6pYAQKgozqw"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/Lamborghini?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div id="pagination">
+            <div id="leftBtn">
+                <i class="fas fa-angle-left"></i>
+            </div>
+            <div id="rightBtn">
+                <i class="fas fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
